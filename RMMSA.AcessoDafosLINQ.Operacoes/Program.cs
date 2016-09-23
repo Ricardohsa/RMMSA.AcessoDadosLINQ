@@ -62,7 +62,8 @@ namespace RMMSA.AcessoDafosLINQ.Operacoes
                 .TakeWhile(a => a <= 20);
 
 
-            Console.WriteLine("Resultado do TakeWhile");
+            Console.WriteLine("Resultado do TakeWhile");  
+
             foreach (var resultado in con)
             {
                 Console.WriteLine(resultado);

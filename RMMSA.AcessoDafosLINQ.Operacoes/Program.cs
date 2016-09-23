@@ -57,7 +57,7 @@ namespace RMMSA.AcessoDafosLINQ.Operacoes
             }
 
             var num2 = new[] {2, 6, 9, 66, 5, 8, 95, 22, 27};
-            var con = num2
+            var con = num2 
                 
                 .TakeWhile(a => a <= 20);
 
